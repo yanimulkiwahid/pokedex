@@ -70,11 +70,13 @@ export const empty: FlexProps = {
   left: '50%',
   transform: 'translate(-50%,-50%)',
   w: '100%',
+  p: "4",
 }
 
-export const emptyText = {
-  mb: '4',
-  fontSize: '48px',
+export const emptyText: TextProps = {
+  my: '4',
+  fontSize: { base: "3xl", lg: '48px' },
+  textAlign: "center",
   fontWeight: 'bold',
   color: 'white',
   textShadow: '#000 2px 3px 0px',
